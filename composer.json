@@ -28,5 +28,8 @@
   ],
   "require": {
     "php": ">=5.2.8"
+  },
+  "autoload": {
+      "psr-0": {"Twitter_": "lib/"}
   }
 }
