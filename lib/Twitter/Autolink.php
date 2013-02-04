@@ -547,7 +547,7 @@ class Twitter_Autolink extends Twitter_Regex {
     #      single tweet and also as only the match is replaced and we have to
     #      use a look-ahead for $after because there is no equivalent for the
     #      $' (dollar apostrophe) global from Ruby, we MUST NOT append $after.
-    return $before . $at . $this->wrap($url, $class, $element);
+    return $before . $this->wrap($url, $class, $at . $element);
   }
 
 }
