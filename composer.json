@@ -1,8 +1,7 @@
 {
-  "name": "VladaPetrovic/twitter-text-php",
+  "name": "simonsimcity/twitter-text-php",
   "description": "A library of PHP classes that provide auto-linking and extraction of usernames, lists, hashtags and URLs from tweets.",
-  "keywords": ["Twitter","Text","Autolink"],
-  "homepage": "https://github.com/VladaPetrovic/twitter-text-php",
+  "homepage": "https://github.com/SimonSimCity/twitter-text-php",
   "type": "library",
   "license": "Apache-2.0",
   "authors": [
@@ -22,8 +21,8 @@
       "homepage":"http://www.nickpope.me.uk"
     },
     {
-      "name": "Takashi Nojima",
-      "homepage":"http://php-tips.com"
+      "name": "Simon Schick",
+      "homepage":"http://www.simonsimcity.net"
     }
   ],
   "require": {
